@@ -1,4 +1,10 @@
 body {
 	font-family: 'Open Sans Condensed';
 	padding: 20px 60px;
+	margin: 0 20px;
+}
+a {
+	text-decoration-style: none;
+	color: black;
+	font-size: 2rem;
 }
