@@ -18,16 +18,16 @@
 		height: 5%;
 		display: flex;
 		justify-content: space-between;
-		font-size: 12px;
 
 		.name {
 			width: 90%;
 			margin-bottom: 17px;
-			font-family: 'Open Sans Condensed';
+			font-family: 'Open Sans', sans-serif;
+			font-size: 22px;
 		}
 
 		.price {
-			font-size: 18px;
+			font-size: 22px;
 			width: 10%;
 		}
 	}

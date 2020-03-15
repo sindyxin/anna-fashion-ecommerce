@@ -2,7 +2,7 @@ import React from 'react';
 import ShopData from './shop_data.js';
 import CollectionsPreview from '../../components/CollectionsPreview/CollectionsPreview.jsx';
 
-export class ShopPage extends React.Component {
+class ShopPage extends React.Component {
 	constructor() {
 		super();
 		this.state = { collections: ShopData };
@@ -19,3 +19,4 @@ export class ShopPage extends React.Component {
 		);
 	}
 }
+export default ShopPage;

@@ -8,3 +8,6 @@ a {
 	color: black;
 	font-size: 2rem;
 }
+* {
+	box-sizing: border-box;
+}
