@@ -30,7 +30,7 @@ export default class SignIn extends Component {
 			<div className='sign-in'>
 				<h2 className='title'>I already have an account</h2>
 
-				<form onSubmit={this.handleSubmit}>
+				<form className='sign-in-form' onSubmit={this.handleSubmit}>
 					<div className='form-group'>
 						<FormInput
 							name='email'
